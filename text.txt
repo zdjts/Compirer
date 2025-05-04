@@ -1,0 +1,32 @@
+// This is a single-line comment, testing if it can be ignored
+/* This is a multi-line comment
+   spanning multiple lines, with special chars !@#$
+   ending here */
+int main() {
+    // Keywords and identifiers
+    if (x == 42) {
+        return true;
+    } else {
+        float pi = 3.14159;
+        double bigNum = 1.23e-4;
+        int hexNum = 0x2A; // Hexadecimal
+        int octNum = 052;  // Octal
+    }
+    
+    // Strings and characters
+    char letter = 'a';
+    string text = "Hello, World!\n\t\"escaped quotes\"";
+    
+    // Operators and delimiters
+    int result = (a + b) * c / d % e;
+    bool flag = (x > y) && (z <= w) || !cond;
+    
+    // Complex identifier
+    int my_variable_123 = 0;
+    
+    // Edge cases: consecutive symbols
+    x++; y--; z+=5; w-=3;
+    
+    // Illegal character test
+    int invalid@symbol = 1; // Contains illegal char @
+}
